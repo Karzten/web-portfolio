@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full px-12 py-4 md:py-8 bg-transparent font-oxanium">
+  <header class="w-full px-8 md:px-12 py-4 md:py-8 bg-transparent font-oxanium">
     <nav class="flex items-center justify-between">
       <div class="font-bold text-lg md:text-xl lg:text-2xl">
         HOMERO ZEGARRA
