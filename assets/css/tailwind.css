@@ -1,0 +1,13 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oxanium:wght@200;300;400;500;600&display=swap');
+
+@layer base {
+  html {
+      font-family: Oxanium;
+  }
+}
