@@ -7,7 +7,7 @@
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero explicabo amet ad doloremque voluptates
       harum hic ut commodi, molestiae neque nostrum facere a! Porro delectus mollitia iste ab quas aliquam!
     </p>
-    <Button text="Descargar CV" class="mt-6" :typeButton="download"/>
+    <Button text="Descargar CV" class="mt-6" :typeButton="'download'"/>
   </section>
 </template>
 
