@@ -4,7 +4,7 @@
     <Presentation class="mt-8 md:mt-10 lg:mt-12"/>
     <Description class="mt-8 md:mt-10 lg:mt-12"/>
     <Skills class="mt-8 md:mt-10 lg:mt-12"/>
-    <Footer class="mt-64 md:mt-10 lg:mt-12"/>
+    <Footer class="mt-64 md:mt-48 lg:mt-24"/>
   </div>
 </template>
 

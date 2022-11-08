@@ -44,7 +44,7 @@ export default {
     @apply py-3 px-6 text-xl;
   }
   .primary {
-    @apply py-3 px-6 text-xl;
+    @apply py-3 px-5 text-lg;
   }
  }
  @media screen and (min-width: 1024px) {
@@ -55,7 +55,7 @@ export default {
     @apply py-4 px-8 text-2xl;
   }
   .primary {
-    @apply py-4 px-8 text-2xl;
+    @apply py-3 px-6 text-xl;
   }
  }
 
@@ -64,7 +64,7 @@ export default {
     @apply bg-gray-300
   }
   .primary:hover{
-    @apply bg-white text-green-950
+    @apply bg-green-1000 text-white
   }
   .contact:hover{
     @apply bg-white text-green-950 border border-green-1000
