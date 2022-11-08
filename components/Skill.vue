@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-20 lg:flex-row  ">
+  <div class="flex flex-col gap-16 lg:flex-row  ">
     <div class="flex flex-col gap-6">
       <section class="flex flex-col gap-4 items-center">
         <img src="@/assets/image/frontend.png" alt="" class="w-24">
