@@ -7,9 +7,16 @@
       <button class="chips">Frontend</button>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <Card />
-      <Card />
-      <Card />
+      <div v-for="project in projects" :key="project.id">
+        <Card
+          :id="project.project_id"
+          :name="project.name"
+          :description="project.short_description"
+          :image="project.image"
+          :url="project.url"
+          :category="project.category"
+        />
+      </div>
     </div>
   </section>
 </template>
@@ -20,6 +27,39 @@ export default {
   components: {
     Card
   },
+  data () {
+    return {
+      projects: [
+        {
+          project_id: 1,
+          name: 'Easy Food',
+          short_description: 'Aplicación Móvil para donar, vender o comprar comida y permitir que los restaurantes puedan donar comida a personas necesitadas.',
+          url: '',
+          image: 'projects/easyfood.png',
+          category: 'Diseño UX/UI',
+        },
+        {
+          project_id: 2,
+          name: 'Crunchyroll Rediseño',
+          short_description: 'Rediseño del aplicativo móvil Crunchyroll, plataforma para ver anime online',
+          url: '',
+          image: 'projects/crunchyroll.png',
+          small_image: 'projects/crunchyroll_small.png',
+          category: 'Diseño UX/UI',
+        },
+        {
+          project_id: 3,
+          name: 'Dermalia',
+          short_description: 'Plataforma e-commerce para venta de productos dermatológicos en Perú.',
+          url: '',
+          image: 'projects/dermalia.png',
+          small_image: 'projects/dermalia_small.png',
+          category: 'Frontend',
+        },
+
+      ]
+    }
+  }
 }
 </script>
 

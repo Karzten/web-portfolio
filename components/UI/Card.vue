@@ -1,17 +1,27 @@
 <template>
-    <div class="card">
+    <div class="card" :style="backgroundStyles(image)">
         <div class="info">
-            <h1 class="title">Título de proyecto</h1>
+            <h1 class="title">{{ name }}</h1>
             <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Eius esse corporis, velit porro impedit laudantium accusamus! Id velit,
-                illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem
-                fugit.
+                {{ description }}
             </p>
             <button class="button">Ver más</button>
         </div>
     </div>
 </template>
+
+<script>
+export default {
+  props: ['id', 'name', 'description', 'image', 'url', 'category'],
+  methods: {
+    backgroundStyles (image) {
+      return {
+        backgroundImage: `url(${image})`
+      }
+    }
+  }
+}
+</script>
 
 <style scoped>
 .card {
@@ -24,8 +34,8 @@
     0px 5px 8px 0px rgba(0, 0, 0, 0.14),
     0px 1px 14px 0px rgba(0, 0, 0, 0.12);
   overflow: hidden;
-  background-image: url(@/static/project/default.jpg);
   background-size: cover;
+  background-position: center;
 }
 .info {
   position: relative;
