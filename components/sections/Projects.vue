@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col gap-8 font-oxanium px-5">
+  <section id="projects" class="flex flex-col gap-8 font-oxanium px-5">
     <h1 class="text-center font-bold text-2xl lg:text-3xl">Mis proyectos</h1>
     <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 md:flex md:flex-row md:gap-4 justify-center text-xl -mt-2 ">
       <button class="chips active">Todos</button>

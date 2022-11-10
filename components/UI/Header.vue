@@ -13,10 +13,10 @@
 
       <div class="hidden md:block">
         <ul class="flex space-x-12 font-bold text-lg md:text-xl lg:text-2xl">
-          <li ><router-link to="/" class="active border-b-2 border-green-950 pb-1">Inicio</router-link></li>
-          <li class="hover:text-green-950"><router-link to="/" class="">Sobre mí</router-link></li>
-          <li class="hover:text-green-950"><router-link to="/" class="">Proyectos</router-link></li>
-          <li class="hover:text-green-950"><router-link to="/" class="">Contacto</router-link></li>
+          <li ><router-link to="#home" class="active border-b-2 border-green-950 pb-1">Inicio</router-link></li>
+          <li class="hover:text-green-950"><router-link to="#about-me" class="">Sobre mí</router-link></li>
+          <li class="hover:text-green-950"><router-link to="#projects" class="">Proyectos</router-link></li>
+          <li class="hover:text-green-950"><router-link to="#contact" class="">Contacto</router-link></li>
         </ul>
       </div>
 

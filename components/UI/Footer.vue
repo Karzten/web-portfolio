@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-green-950 font-oxanium text-center px-6 py-6 flex flex-col gap-10">
+  <footer id="contact" class="bg-green-950 font-oxanium text-center px-6 py-6 flex flex-col gap-10">
     <div class="bg-green-1000 rounded-lg px-5 -mt-40 lg:-mt-20">
       <div class="flex flex-col gap-8 lg:flex-row lg:justify-evenly lg:items-center py-10">
         <div class="text-white text-xl font-bold md:text-2xl lg:text-xl xl:text-2xl">
