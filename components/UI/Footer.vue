@@ -9,7 +9,7 @@
           <p>Si estás interesado o interesada en mi perfil, envíame un e-mail</p>
         </div>
         <div>
-          <Button text="Contáctame" :typeButton="'contact'"/>
+          <a href="/contact"><Button text="Contáctame" :typeButton="'contact'"/></a>
         </div>
       </div>
     </div>
