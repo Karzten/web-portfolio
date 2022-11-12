@@ -1,15 +1,16 @@
 <template>
   <div class="">
-    <Presentation class="mt-8 md:mt-10 lg:mt-12"/>
-    <Description class="mt-8 md:mt-10 lg:mt-12"/>
-    <Skills class="mt-8 md:mt-10 lg:mt-12"/>
-    <Projects class="mt-8 md:mt-10 lg:mt-12"/>
-    <Footer class="mt-64 md:mt-48 lg:mt-24 xl:mt-32 2xl:mt-40"/>
+    <Header />
+    <Presentation id="home" class="pt-6 md:pt-8 lg:pt-10"/>
+    <Description id="aboutme" class="pt-12 md:pt-16 lg:pt-24"/>
+    <Skills id="skills" class="pt-16 md:pt-20 lg:pt-24"/>
+    <Projects id="projects" class="pt-16 md:pt-20 lg:pt-24"/>
+    <Footer id="contact" class="pt-64 md:pt-48 lg:pt-24 xl:pt-32 2xl:pt-40"/>
   </div>
 </template>
 
 <script>
-
+import Header from '@/components/UI/Header'
 import Presentation from '~/components/sections/Presentation.vue'
 import Description from '~/components/sections/Description.vue'
 import Skills from '~/components/sections/Skills.vue'
