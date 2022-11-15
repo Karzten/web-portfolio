@@ -12,6 +12,10 @@ module.exports = {
           950: '#52B96F',
           1000: '#278E44'
         },
+      },
+      padding: {
+        '72' : '18rem',
+        '80' : '20rem',
       }
     },
     fontFamily: {

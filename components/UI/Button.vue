@@ -36,6 +36,16 @@ export default {
  .primary {
     @apply py-3 px-6 rounded-md bg-green-950 text-white font-bold text-lg;
  }
+ .submit {
+    @apply py-3 px-6 rounded-lg bg-green-950 text-white font-bold text-lg;
+ }
+
+ @media screen and (min-width: 280px) and (max-width: 680px) {
+  .submit{
+    @apply w-full;
+  }
+ }
+
  @media screen and (min-width: 768px) {
   .download {
     @apply py-3 px-6 text-xl;
@@ -45,6 +55,9 @@ export default {
   }
   .primary {
     @apply py-3 px-5 text-lg;
+  }
+  .submit {
+    @apply py-3 px-32 text-xl;
   }
  }
  @media screen and (min-width: 1024px) {
@@ -57,6 +70,9 @@ export default {
   .primary {
     @apply py-3 px-6 text-xl;
   }
+  .submit {
+    @apply py-3 px-32 text-2xl;
+  }
  }
 
  @layer utilities{
@@ -68,6 +84,9 @@ export default {
   }
   .contact:hover{
     @apply bg-white text-green-950 border border-green-1000
+  }
+  .submit:hover{
+    @apply bg-green-1000 text-white
   }
  }
 
