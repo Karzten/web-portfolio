@@ -42,6 +42,19 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    ['nuxt-mail', {
+      message: {
+        to: 'luiszegarrafernandez@gmail.com',
+      },
+      smtp: {
+        host: 'smtp.gmail.com',
+        port: 465,
+        auth: {
+          user: 'luiszegarrafernandez@gmail.com',
+          pass: 'zaqyhmhmstcieofr'
+        },
+      },
+    }],
   ],
   /*
   ** Axios module configuration

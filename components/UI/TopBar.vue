@@ -6,7 +6,7 @@
     <div class="text-center text-xl md:text-2xl lg:text-3xl font-bold">
       Homero Zegarra
     </div>
-    <div>
+    <div class="cursor-pointer" @click="cleanForm">
       <IconRefresh />
     </div>
   </header>
@@ -21,6 +21,9 @@ export default {
   methods: {
     goToPrev() {
       this.$router.push('/')
+    },
+    cleanForm() {
+      this.$emit('cleanForm')
     }
   }
 }
